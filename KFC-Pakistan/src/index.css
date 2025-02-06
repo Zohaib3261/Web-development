@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;  
+   
+  }
+
+  .rounded-tl-tr-br-bl {
+    border-top-left-radius: 50%; /* Adjust the value as needed */
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 3%;
+  }
+  
+  .grid-template-column {
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+
+  
